@@ -8,7 +8,7 @@ public class FileUpperCase {
 
     }
 
-    public int fileReader(String filePath)
+    public int fileReader(String filePath) // this method will read the content in the file and convert to uppercase
     {
         try {
 

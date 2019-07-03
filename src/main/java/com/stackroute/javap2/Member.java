@@ -1,6 +1,6 @@
 package com.stackroute.javap2;
 
-public class Member {
+public class Member { //check the member variables returned correctly
     String name;
     int age;
     double salary;

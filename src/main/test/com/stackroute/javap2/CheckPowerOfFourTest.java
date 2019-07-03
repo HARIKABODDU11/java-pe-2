@@ -24,12 +24,29 @@ public class CheckPowerOfFourTest {
 
     @Test
     public void givenNumberShouldReturnPowerOfFour() {
+        //Arrange
+
+        //Act
         boolean result = four.isPowerOfFour(64);
+        //Assert
         assertEquals(true, result);
     }
     @Test
     public void givenNumberShouldReturnNotPowerOfFour() {
+        //Arrange
+
+        //Act
         boolean result = four.isPowerOfFour(925);
+        //Assert
+        assertEquals(false, result);
+    }
+    @Test
+    public void givenNumberShouldReturnFalse() {
+        //Arrange
+
+        //Act
+        boolean result = four.isPowerOfFour(-1);
+        //Assert
         assertEquals(false, result);
     }
 

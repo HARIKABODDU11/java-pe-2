@@ -18,17 +18,29 @@ public class FactorialTest {
     }
     @Test
     public void givenNumberShouldReturnFactorial(){
+        //Arrange
+
+        //Act
         String total=f.fact(6);
+        //Assert
         assertEquals("success",total);
     }
     @Test
     public void givenNumberShouldReturnOutOfRange(){
+        //Arrange
+
+        //Act
         String total=f.fact(20);
+        //Assert
         assertEquals("Out of range",total);
     }
     @Test
     public void givenNegativeNumberShouldReturnError(){
+        //Arrange
+
+        //Act
         String total=f.fact(-5);
+        //Assert
         assertEquals("Error",total);
     }
 

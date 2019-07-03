@@ -1,6 +1,6 @@
 package com.stackroute.javap2;
 
-public class Grades {
+public class Grades {// check students min ,max,average of all the students
     public static String avg(int[] array,int size){
         int i=0,sum=0;
         String string="";

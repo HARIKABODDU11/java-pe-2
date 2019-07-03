@@ -23,19 +23,31 @@ import static org.junit.Assert.*;
         }
         @Test
         public void testOneNumberShouldReturnTrue(){
+            //Arrange
+
+            //Act
             boolean result=t.isEven(74);
+            //Assert
             assertEquals(true,result);
 
         }
         @Test
         public void testOneNumberShouldReturnFalse(){
+            //Arrange
+
+            //Act
             boolean result=t.isEven(41);
+            //Assert
             assertEquals(false,result);
 
         }
         @Test
         public void testOneNumberShouldReturn(){
+            //Arrange
+
+            //Act
             boolean result=t.isEven(78);
+            //Assert
             assertEquals(true,result);
 
         }

@@ -15,13 +15,21 @@ public class GradesTest {
     }
     @After
     public void tearDown(){
+        //Arrange
+
+        //Act
         System.out.println("After");
+        //Assert
         num=null;
     }
     @Test
     public void givenGradesShouldReturnSum(){
+        //Arrange
+
+        //Act
         int[] array={89,90,78,70};
         String total=num.avg(array,4);
+        //Assert
         assertEquals("Average is81",total);
     }
     @Test

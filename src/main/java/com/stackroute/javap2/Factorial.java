@@ -10,7 +10,6 @@ public class Factorial {
             for (int j = 1; j <= i; j++) {
                 fact = fact * j;
             }
-            System.out.println(fact);
 
             fact=1;
         }

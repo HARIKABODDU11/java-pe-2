@@ -1,7 +1,7 @@
 package com.stackroute.javap2;
 
 public class Palindrome {
-    public String CheckPalindrome(int num) {
+    public String CheckPalindrome(int num) { //check the number is palindrome or not
         int m, a = 0, x;
         m = num;
         while (num > 0) {
